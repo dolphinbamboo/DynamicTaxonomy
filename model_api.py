@@ -55,7 +55,7 @@ class DeepSeekAPI(BaseAPI):
         super().__init__(api_key, base_url)
         self.client = OpenAI(
             api_key=api_key,
-            base_url="https://api.deepseek.com"  # 修改为正确的API地址
+            base_url=""  # 修改为正确的API地址
         )
 
     def chat_completion(self, messages: List[Dict[str, str]]) -> Dict:
@@ -63,7 +63,7 @@ class DeepSeekAPI(BaseAPI):
             print("Sending request to DeepSeek API:", json.dumps(messages, indent=2))
             
             response = self.client.chat.completions.create(
-                model="deepseek-chat",  # 使用正确的模型名称
+                model="",  # 使用正确的模型名称
                 messages=messages,
                 temperature=0.7,
                 max_tokens=1000
@@ -223,8 +223,8 @@ class OpenAIAPI(BaseAPI):
 def test_gemini():
     # Gemini配置
     config = {
-        "api_key": "sk-1D8oiW5hXQXjcIKk447jQLVZQ1UK2o8lRXIoNsWWPDl1ocKQ",
-        "base_url": "https://llmxapi.com/v1"
+        "api_key": "",
+        "base_url": ""
     }
     
     # 初始化API
@@ -264,8 +264,8 @@ def test_gemini():
 def test_openai():
     # OpenAI配置
     config = {
-        "api_key": "sk-FvTbaxgPequmD7ve2e672bE5BcE14bBc929eC9F9F2956089",
-        "base_url": "https://api.nuwaapi.com"
+        "api_key": "",
+        "base_url": ""
     }
     
     # 初始化API
@@ -305,8 +305,8 @@ def test_openai():
 def test_deepseek():
     # DeepSeek配置
     config = {
-        "api_key": "sk-588c985972c54abeb9ce2b43315dd58c",  # 需要替换为实际的API key
-        "base_url": "https://api.deepseek.com"
+        "api_key": ",  # 需要替换为实际的API key
+        "base_url": ""
     }
     
     # 初始化API

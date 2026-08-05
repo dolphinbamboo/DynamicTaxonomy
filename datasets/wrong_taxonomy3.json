@@ -1,0 +1,1692 @@
+[
+    {
+        "taxonomy": {
+          "food": [
+            {
+              "foodstuff": [
+                {
+                  "ingredient": [
+                    {
+                      "flavorer": [
+                        {
+                          "condiment": [
+                            {
+                              "relish": [
+                                {
+                                  "pickle": [
+                                    "caper",
+                                    "sweet pickle",
+                                    "tomato paste"
+                                  ]
+                                },
+                                "olive",
+                                "spice"
+                              ]
+                            },
+                            {
+                              "sauce": [
+                                "dressing",
+                                "spread"
+                              ]
+                            }
+                          ]
+                        },
+                        "herb"
+                      ]
+                    },
+                    "egg yolk"
+                  ]
+                },
+                "meal",
+                "grain"
+              ]
+            },
+            "beverage",
+            "feed"
+          ]
+        },
+        "error_edges": [
+          ["pickle", "tomato paste"],
+          ["sauce", "spread"],
+          ["sauce", "dressing"]
+        ],
+        "label": 1
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "drink": [
+                "beer",
+                "suds",
+                {
+                  "beer": [
+                    "pale ale",
+                    "lager",
+                    {
+                      "brew": [
+                        "fermented beverage",
+                        "craft drink"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "beer",
+            "brew"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "stew": [
+                "chili con carne",
+                "goulash",
+                "ragout",
+                "braise",
+                "fricassee"
+              ]
+            },
+            {
+              "broth": [
+                "soup base",
+                "liquid stock"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "stew",
+            "braise"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "environment": [
+            {
+              "pollution": [
+                "air pollution",
+                "noise pollution",
+                {
+                  "noise pollution": [
+                    "industrial noise",
+                    "aircraft noise",
+                    "sound disturbance"
+                  ]
+                }
+              ]
+            },
+            {
+              "water pollution": [
+                "chemical contamination",
+                "marine debris"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "noise pollution",
+            "sound disturbance"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "citrus fruit": [
+                "orange",
+                "Citrus limon",
+                "grapefruit",
+                "citrus peel"
+              ]
+            },
+            {
+              "grapefruit peel": [
+                "citrus zest",
+                "fruit rind"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "citrus fruit",
+            "citrus peel"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "environment": [
+            {
+              "protected area": [
+                "national park",
+                "nature reserve",
+                {
+                  "national park": [
+                    "wetland reserve",
+                    "protected grassland"
+                  ]
+                }
+              ]
+            },
+            {
+              "national park (type)": [
+                "nature reserve"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "national park (type)",
+            "nature reserve"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "pastry": [
+                "puff paste",
+                "croissant dough",
+                {
+                  "puff paste": [
+                    "cake mix",
+                    "sweetened dough"
+                  ]
+                }
+              ]
+            },
+            {
+              "cake mix": [
+                "ready mix",
+                "baking mix"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "puff paste",
+            "cake mix"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "dessert": [
+                "pudding",
+                "compote",
+                {
+                  "compote": [
+                    "fruit reduction",
+                    "pureed fruit base",
+                    "preserves"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "compote",
+            "preserves"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "environment": [
+            {
+              "risk prevention": [
+                "industrial hazard",
+                "natural hazard",
+                {
+                  "industrial hazard": [
+                    "chemical accident",
+                    "mechanical accident",
+                    "hazard"
+                  ]
+                }
+              ]
+            },
+            {
+              "hazard": [
+                "risk factor",
+                "danger source"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "industrial hazard",
+            "hazard"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "juice": [
+                "lime juice",
+                "orange juice",
+                {
+                  "orange juice": [
+                    "citrus juice",
+                    "fruit extract"
+                  ]
+                }
+              ]
+            },
+            {
+              "broth concentrate": [
+                "vegetable concentrate"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "orange juice",
+            "citrus juice"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "drink": [
+                "beer",
+                {
+                  "decaffeinated coffee": [
+                    "coffee extract",
+                    "Decaf Americano"
+                  ]
+                }
+              ]
+            },
+            {
+              "brew extract": [
+                "fermented extract",
+                "aroma concentrate"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          [
+            "decaffeinated coffee",
+            "coffee extract"
+          ]
+        ]
+      },
+      {
+        "taxonomy": {
+          "environment": [
+            {
+              "environmental protection": [
+                "coastal protection",
+                {
+                  "environmental policy": [
+                    "quality of the environment",
+                    "risk prevention"
+                  ]
+                }
+              ]
+            },
+            "risk prevention"
+          ]
+        },
+        "error_edges": [
+          ["environmental protection", "environmental policy"]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "stew": [
+                "beef stew",
+                {
+                  "vegetable stew": [
+                    "pumpkin stew",
+                    "tomato stew",
+                    "vegetable broth"
+                  ]
+                }
+              ]
+            },
+            {
+              "broth": [
+                "liquid stock"
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          ["vegetable stew", "vegetable broth"]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "juice": [
+                "lime juice",
+                {
+                  "orange juice": [
+                    "pulp-free orange juice",
+                    "citrus juice",
+                    "blood orange juice"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "error_edges": [
+          ["orange juice", "citrus juice"]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "nutriment": [
+                {
+                  "dish": [
+                    {
+                      "soup": [
+                        {
+                          "broth": [
+                            "stock cube",
+                            "chicken broth",
+                            {
+                              "liquor": [
+                                {
+                                  "brandy": [
+                                    "armagnac",
+                                    "cognac",
+                                    "milk"
+                                  ]
+                                },
+                                "gin",
+                                "whiskey"
+                              ]
+                            }
+                          ]
+                        },
+                        "chowder",
+                        "consomme"
+                      ]
+                    },
+                    {
+                      "pudding": [
+                        "gin"
+                      ]
+                    },
+                    "stew"
+                  ]
+                },
+                "dainty"
+              ]
+            },
+            "foodstuff",
+            "beverage"
+          ]
+        },
+        "error_edges": [
+          ["brandy", "milk"],
+          ["pudding", "gin"],
+          ["nutriment", "beverage"]
+        ],
+        "label": 1
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "nutriment": [
+                {
+                  "dish": [
+                    {
+                      "soup": [
+                        {
+                          "broth": [
+                            {
+                              "liquor": [
+                                {
+                                  "rum": [
+                                    "grog",
+                                    "demerara",
+                                    "Keyboard"
+                                  ]
+                                },
+                                "whiskey",
+                                "gin"
+                              ]
+                            },
+                            "stock cube",
+                            "chicken broth"
+                          ]
+                        },
+                        "consomme",
+                        "Design"
+                      ]
+                    },
+                    "stew",
+                    "pudding"
+                  ]
+                },
+                "milk",
+                "dainty"
+              ]
+            },
+            "foodstuff",
+            "beverage"
+          ]
+        },
+        "error_edges": [
+          ["rum", "Keyboard"],
+          ["soup", "Design"],
+          ["liquor", "Design"]
+        ]
+      },
+    {
+        "taxonomy": {
+          "food": [
+            {
+              "foodstuff": [
+                {
+                  "ingredient": [
+                    {
+                      "flavorer": [
+                        {
+                          "condiment": [
+                            {
+                              "relish": [
+                                {
+                                  "pickle": [
+                                    "caper",
+                                    "sweet pickle",
+                                    "sauce"
+                                  ]
+                                },
+                                "olive",
+                                "spice"
+                              ]
+                            },
+                            "spread"
+                          ]
+                        },
+                        "herb"
+                      ]
+                    },
+                    "tomato paste",
+                    "egg yolk"
+                  ]
+                },
+                "meal",
+                "grain"
+              ]
+            },
+            "beverage",
+            "feed"
+          ]
+        },
+        "error_edges": [
+          ["pickle", "sauce"],
+          ["relish", "spice"]
+        ],
+        "label": 1
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "foodstuff": [
+                {
+                  "ingredient": [
+                    {
+                      "flavorer": [
+                        {
+                          "condiment": [
+                            {
+                              "sauce": [
+                                {
+                                  "dressing": [
+                                    "bleu cheese dressing",
+                                    "mayonnaise",
+                                    "egg yolk"
+                                  ]
+                                },
+                                "spaghetti sauce"
+                              ]
+                            },
+                            "spread",
+                            "dip"
+                          ]
+                        },
+                        "herb",
+                        "spice"
+                      ]
+                    },
+                    "tomato paste"
+                  ]
+                },
+                "meal",
+                "grain"
+              ]
+            },
+            "beverage",
+            "feed"
+          ]
+        },
+        "error_edges": [
+          ["dressing", "egg yolk"],
+          ["foodstuff", "beverage"]
+        ],
+        "label": 1
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "nutriment": [
+                {
+                  "dish": [
+                    {
+                      "soup": [
+                        {
+                          "broth": [
+                            {
+                              "liquor": [
+                                {
+                                  "brandy": [
+                                    "armagnac",
+                                    "applejack",
+                                    "cognac",
+                                    "stock cube"
+                                  ]
+                                },
+                                "whiskey",
+                                "gin"
+                              ]
+                            },
+                            "chicken broth",
+                            "beverage"
+                          ]
+                        },
+                        "chowder",
+                        "consomme"
+                      ]
+                    },
+                    "stew",
+                    "pudding"
+                  ]
+                },
+                "milk",
+                "dainty"
+              ]
+            },
+            "foodstuff"
+          ]
+        },
+        "error_edges": [
+          ["brandy", "stock cube"],
+          ["broth", "beverage"]
+        ],
+        "label": 1
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "nutriment": [
+                {
+                  "dish": [
+                    {
+                      "soup": [
+                        {
+                          "broth": [
+                            {
+                              "liquor": [
+                                {
+                                  "gin": [
+                                    "bathtub gin",
+                                    "geneva",
+                                    "Personal Equipment"
+                                  ]
+                                },
+                                "brandy",
+                                "whiskey"
+                              ]
+                            },
+                            "stock cube",
+                            "chicken broth"
+                          ]
+                        },
+                        "consomme",
+                        "Dietary habits"
+                      ]
+                    },
+                    "stew",
+                    "pudding"
+                  ]
+                },
+                "milk",
+                "dainty"
+              ]
+            },
+            "foodstuff",
+            "beverage"
+          ]
+        },
+        "error_edges": [
+          ["gin", "Personal Equipment"],
+          ["soup", "Dietary habits"]
+        ]
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "foodstuff": [
+                {
+                  "ingredient": [
+                    {
+                      "flavorer": [
+                        {
+                          "condiment": [
+                            {
+                              "relish": [
+                                "olive",
+                                "spice"
+                              ]
+                            },
+                            "sauce",
+                            "spread",
+                            "grain"
+                          ]
+                        },
+                        "herb"
+                      ]
+                    },
+                    "tomato paste",
+                    "egg yolk"
+                  ]
+                },
+                "meal"
+              ]
+            },
+            "beverage",
+            "feed"
+          ]
+        },
+        "error_edges": [
+          ["condiment", "grain"],
+          ["foodstuff", "beverage"]
+        ],
+        "label": 1
+      },
+      {
+        "taxonomy": {
+          "food": [
+            {
+              "nutriment": [
+                {
+                  "dish": [
+                    {
+                      "soup": [
+                        {
+                          "broth": [
+                            {
+                              "liquor": [
+                                {
+                                  "rum": [
+                                    "grog",
+                                    "demerara",
+                                    "Design"
+                                  ]
+                                },
+                                "whiskey",
+                                "gin"
+                              ]
+                            },
+                            "stock cube",
+                            "chicken broth"
+                          ]
+                        },
+                        "chowder",
+                        "consomme"
+                      ]
+                    },
+                    "stew",
+                    "pudding"
+                  ]
+                },
+                "milk",
+                "dainty"
+              ]
+            },
+            "foodstuff",
+            "beverage"
+          ]
+        },
+        "error_edges": [
+          ["rum", "Design"],
+          ["liquor", "Design"]
+        ]
+      },
+    {
+        "taxonomy": {
+        "Science": [
+            {
+            "Social sciences": [
+                {
+                "Sociology": [
+                    {
+                    "Culture": [
+                        {
+                        "Art": [
+                            {
+                            "Performing Arts": [
+                                {
+                                "Music": [
+                                    {
+                                    "Music History": [
+                                        "Modern Music History",
+                                        "Romantic Music History",
+                                        "Classical Music History"
+                                    ]
+                                    },
+                                    "Music Education",
+                                    "Music Creation"
+                                ]
+                                },
+                                "Dance",
+                                "Theater",
+                                "Social Structure"
+                            ]
+                            },
+                            "Handicraft",
+                            "Painter"
+                        ]
+                        },
+                        "Literature",
+                        "Folklore"
+                    ]
+                    },
+                    "Social structure"
+                ]
+                },
+                "Politics",
+                "Anthropology"
+            ]
+            },
+            "Natural sciences",
+            "Engineering and technology"
+        ]
+        },
+        "error_edges": [
+        ["Performing Arts", "Social Structure"],
+        ["Art", "Painter"],
+        ["Sociology", "Literature"]
+        ],
+        "label": 1
+    },
+    {
+        "taxonomy": {
+        "Science": [
+            {
+            "Social sciences": [
+                {
+                "Sociology": [
+                    {
+                    "Culture": [
+                        {
+                        "Art": [
+                            {
+                            "Performing Arts": [
+                                {
+                                "Music": [
+                                    {
+                                    "Music Education": [
+                                        "Music Theory Education",
+                                        "Vocal Education",
+                                        "Instrumental Education",
+                                        "Music Culture"
+                                    ]
+                                    },
+                                    "Music Theory"
+                                ]
+                                },
+                                "Dance",
+                                "Theater"
+                            ]
+                            },
+                            "Theater",
+                            "Dance"
+                        ]
+                        },
+                        "Literature",
+                        "Custom"
+                    ]
+                    },
+                    "Social structure",
+                    "Social Change"
+                ]
+                },
+                "Politics",
+                "Political science"
+            ]
+            },
+            "Natural sciences",
+            "Chemistry"
+        ]
+        },
+        "error_edges": [
+        ["Music Education", "Music Culture"],
+        ["Art", "Dance"],
+        ["Social sciences", "Chemistry"],
+        ["Politics", "Political science"]
+        ],
+        "label": 1
+    },
+    {
+        "taxonomy": {
+        "Science": [
+            {
+            "Social sciences": [
+                {
+                "Sociology": [
+                    {
+                    "Culture": [
+                        {
+                        "Art": [
+                            {
+                            "Visual Arts": [
+                                {
+                                "Sculpture": [
+                                    "Bronze Sculpture",
+                                    "Modern Sculpture",
+                                    "Wood Carving"
+                                ]
+                                },
+                                "Video Art",
+                                "Painting"
+                            ]
+                            },
+                            "Performing Arts",
+                            "Pop Art"
+                        ]
+                        },
+                        "Language",
+                        "Social system"
+                    ]
+                    },
+                    "Social structure",
+                    "Social Change"
+                ]
+                },
+                "Political science",
+                "Economics"
+            ]
+            },
+            "Natural sciences",
+            "Data Capture (SQL)"
+        ]
+        },
+        "error_edges": [
+        ["Science", "Data Capture (SQL)"],
+        ["Natural sciences", "Data Capture (SQL)"],
+        ["Art", "Pop Art"]
+        ]
+    },
+    {
+        "taxonomy": {
+        "Science": [
+            {
+            "Social sciences": [
+                {
+                "Politics": [
+                    {
+                    "Political system": [
+                        {
+                        "Democratic politics": [
+                            "Presidential system",
+                            "Representative democracy",
+                            "Direct democracy"
+                        ]
+                        },
+                        "Authoritarian politics"
+                    ]
+                    },
+                    "Political institutions",
+                    "Public policy",
+                    "Education"
+                ]
+                },
+                "Economics"
+            ]
+            },
+            "Humanities",
+            "Engineering and technology"
+        ]
+        },
+        "error_edges": [
+        ["Politics", "Education"],
+        ["Social sciences", "Education"],
+        ["Politics", "Public policy"]
+        ],
+        "label": 1
+    },
+    {
+    "taxonomy": {
+        "Science": [
+        {
+            "Social sciences": [
+            {
+                "Sociology": [
+                {
+                    "Culture": [
+                    {
+                        "Art": [
+                        {
+                            "Folk Art": [
+                            {
+                                "Traditional Crafts": [
+                                "Paper Cutting",
+                                "Ceramics",
+                                "Woodcut",
+                                "Cognitive Behavioral Therapy"
+                                ]
+                            }
+                            ]
+                        },
+                        "Architecture",
+                        "Film"
+                        ]
+                    },
+                    "Religion",
+                    "Folklore"
+                    ]
+                },
+                "Social Structure",
+                "Subway"
+                ]
+            },
+            "Education",
+            "Psychology"
+            ]
+        },
+        "Humanities",
+        "Medical and health sciences"
+        ]
+    },
+    "error_edges": [
+        ["Sociology", "Subway"],
+        ["Traditional Crafts", "Cognitive Behavioral Therapy"]
+    ],
+    "label": 2
+    },
+    {
+    "taxonomy": {
+        "Science": [
+        {
+            "Social sciences": [
+            {
+                "Sociology": [
+                {
+                    "Culture": [
+                    {
+                        "Art": [
+                        {
+                            "Folk Art": [
+                            {
+                                "Traditional Crafts": [
+                                "Paper Cutting",
+                                "Ceramics",
+                                "Woodcut"
+                                ]
+                            }
+                            ]
+                        },
+                        "Architecture",
+                        "Film",
+                        "Epidemiology"
+                        ]
+                    },
+                    "Religion",
+                    "Folklore"
+                    ]
+                },
+                "Social Structure"
+                ]
+            },
+            "Education",
+            "Psychology"
+            ]
+        },
+        "Humanities",
+        "Medical and health sciences"
+        ]
+    },
+    "error_edges": [
+        ["Art", "Epidemiology"],
+        ["Culture", "Art"]
+    ]
+    },
+    {
+    "taxonomy": {
+        "Science": [
+        {
+            "Social sciences": [
+            {
+                "Sociology": [
+                {
+                    "Culture": [
+                    {
+                        "Art": [
+                        {
+                            "Folk Art": [
+                            {
+                                "Traditional Crafts": [
+                                "Paper Cutting",
+                                "Ceramics",
+                                "Woodcut"
+                                ]
+                            }
+                            ]
+                        },
+                        "Architecture",
+                        "Film"
+                        ]
+                    },
+                    "Religion",
+                    "Folklore"
+                    ]
+                },
+                "Social Structure",
+                "MRI Scanner"
+                ]
+            },
+            "Education",
+            "Psychology"
+            ]
+        },
+        "Humanities",
+        "Medical and health sciences"
+        ]
+    },
+    "error_edges": [
+        ["Sociology", "MRI Scanner"],
+        ["Sociology", "Social Structure"]
+    ],
+    "label": 2
+    },
+
+    {
+    "taxonomy": {
+        "Science": [
+        {
+            "Social sciences": [
+            {
+                "Sociology": [
+                {
+                    "Culture": [
+                    {
+                        "Art": [
+                        {
+                            "Folk Art": [
+                            {
+                                "Traditional Crafts": [
+                                "Paper Cutting",
+                                "Ceramics",
+                                "Woodcut",
+                                "Cardiology"
+                                ]
+                            }
+                            ]
+                        },
+                        "Architecture",
+                        "Film",
+                        "Vaccination"
+                        ]
+                    },
+                    "Religion",
+                    "Folklore",
+                    "Subway"
+                    ]
+                },
+                "Social Structure"
+                ]
+            },
+            "Education",
+            "Psychology"
+            ]
+        },
+        "Humanities",
+        "Medical and health sciences"
+        ]
+    },
+    "error_edges": [
+        ["Traditional Crafts", "Cardiology"],
+        ["Art", "Vaccination"],
+        ["Culture", "Subway"]
+    ],
+    "label": 3
+    },
+    {
+    "taxonomy": {
+        "Science": [
+        {
+            "Social sciences": [
+            {
+                "Sociology": [
+                {
+                    "Culture": [
+                    {
+                        "Art": [
+                        "Architecture",
+                        "Film",
+                        "Insulin"
+                        ]
+                    },
+                    "Religion",
+                    "Folklore",
+                    "Antibiotics"
+                    ]
+                },
+                "Social Structure",
+                "Subway"
+                ]
+            },
+            "Education",
+            "Psychology"
+            ]
+        },
+        "Humanities",
+        "Medical and health sciences"
+        ]
+    },
+    "error_edges": [
+        ["Art", "Insulin"],
+        ["Culture", "Antibiotics"],
+        ["Sociology", "Subway"]
+    ],
+    "label": 3
+    },
+    {
+    "taxonomy": {
+        "Science": [
+        {
+            "Social sciences": [
+            {
+                "Sociology": [
+                {
+                    "Culture": [
+                    {
+                        "Art": [
+                        {
+                            "Folk Art": [
+                            "Traditional Crafts"
+                            ]
+                        },
+                        "Architecture",
+                        "Film"
+                        ]
+                    },
+                    "Religion",
+                    "Folklore"
+                    ]
+                },
+                "Social Structure",
+                "CT Scan"
+                ]
+            },
+            "Education",
+            "Psychology",
+            "Traditional Crafts"
+            ]
+        },
+        "Humanities",
+        "Medical and health sciences"
+        ]
+    },
+    "error_edges": [
+        ["Sociology", "CT Scan"],
+        ["Social sciences", "Traditional Crafts"],
+        ["Folk Art", "Traditional Crafts"]
+    ],
+    "label": 3
+    },
+    {
+        "taxonomy": {
+        "food": [
+            {
+            "drink": [
+                {
+                "tea": [
+                    "green tea",
+                    "black tea",
+                    "espresso"
+                ]
+                },
+                {
+                "coffee": [
+                    "espresso",
+                    "latte",
+                    "oolong tea"
+                ]
+                }
+            ]
+            }
+        ]
+        },
+        "error_edges": [
+        ["tea", "espresso"],
+        ["coffee", "oolong tea"]
+        ]
+    },
+    {
+        "taxonomy": {
+        "environment": [
+            {
+            "waste": [
+                "solid waste",
+                {
+                "hazardous waste": [
+                    "battery waste",
+                    "medical waste",
+                    "kitchen scraps"
+                ]
+                }
+            ]
+            },
+            {
+            "recycling": [
+                "plastic recycling",
+                "paper recycling",
+                {
+                "plastic recycling": [
+                    "composting"
+                ]
+                }
+            ]
+            }
+        ]
+        },
+        "error_edges": [
+        ["hazardous waste", "kitchen scraps"],
+        ["plastic recycling", "composting"]
+        ]
+    },
+    {
+        "taxonomy": {
+        "food": [
+            {
+            "meat": [
+                "red meat",
+                {
+                "poultry": [
+                    "chicken",
+                    "turkey",
+                    "salmon"
+                ]
+                },
+                {
+                "seafood": [
+                    "salmon",
+                    "shrimp"
+                ]
+                }
+            ]
+            }
+        ]
+        },
+        "error_edges": [
+        ["poultry", "salmon"],
+        ["meat", "seafood"]
+        ]
+    },
+      
+    {
+      "taxonomy": {
+        "food": [
+          {
+            "drink": [
+              "suds",
+              {
+                "beer": [
+                  "pale ale",
+                  "lager",
+                  {
+                    "brew": [
+                      "fermented beverage",
+                      "craft drink"
+                    ]
+                  }
+                ]
+              },
+              {
+                "cocktail": [
+                  "martini",
+                  "margarita",
+                  "mixed drink"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["beer", "brew"],
+        ["drink", "suds"],
+        ["cocktail", "mixed drink"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "food": [
+          {
+            "stew": [
+              "chili con carne",
+              "goulash",
+              "ragout",
+              "braise",
+              "fricassee",
+              {
+                "goulash": [
+                  "hungarian paprika",
+                  "meat dish"
+                ]
+              }
+            ]
+          },
+          {
+            "broth": [
+              "soup base",
+              "liquid stock",
+              {
+                "soup base": [
+                  "umami",
+                  "saltiness"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["stew", "braise"],
+        ["goulash", "hungarian paprika"],
+        ["soup base", "umami"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "environment": [
+          {
+            "pollution": [
+              "air pollution",
+              "noise pollution",
+              "water pollution",
+              {
+                "noise pollution": [
+                  "industrial noise",
+                  "aircraft noise",
+                  "sound disturbance"
+                ]
+              }
+            ]
+          },
+          {
+            "air pollution": [
+              "smog",
+              "particulate matter",
+              "greenhouse gas"
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["noise pollution", "sound disturbance"],
+        ["pollution", "industrial noise"],
+        ["air pollution", "greenhouse gas"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "food": [
+          {
+            "citrus fruit": [
+              "orange",
+              "Citrus limon",
+              "grapefruit",
+              "citrus peel",
+              {
+                "orange": [
+                  "orange juice",
+                  "navel orange"
+                ]
+              }
+            ]
+          },
+          {
+            "grapefruit peel": [
+              "citrus zest",
+              "fruit rind"
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["citrus fruit", "citrus peel"],
+        ["orange", "orange juice"],
+        ["grapefruit peel", "fruit rind"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "food": [
+          {
+            "pastry": [
+              "croissant dough",
+              {
+                "puff paste": [
+                  "cake mix",
+                  "sweetened dough",
+                  "laminated dough"
+                ]
+              }
+            ]
+          },
+          {
+            "cake mix": [
+              "ready mix",
+              "baking mix",
+              "box"
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["puff paste", "cake mix"],
+        ["cake mix", "box"],
+        ["puff paste", "sweetened dough"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "food": [
+          {
+            "sauce": [
+              "tomato sauce",
+              "white sauce",
+              "dressing",
+              {
+                "dressing": [
+                  "vinaigrette",
+                  "mayonnaise",
+                  "salad"
+                ]
+              }
+            ]
+          },
+          {
+            "salad": [
+              "caesar salad",
+              "green salad"
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["dressing", "salad"],
+        ["sauce", "dressing"],
+        ["dressing", "mayonnaise"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "environment": [
+          {
+            "wildlife": [
+              {
+                "animal life": [
+                  "bird",
+                  "insect",
+                  {
+                    "wild mammal": [
+                      "bear",
+                      "whale",
+                      "marine mammal"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "marine mammal": [
+              "seal",
+              "dolphin"
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["animal life", "wild mammal"],
+        ["wild mammal", "marine mammal"],
+        ["wild mammal", "whale"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "food": [
+          {
+            "grain": [
+              "rice",
+              "wheat",
+              {
+                "wheat": [
+                  "flour",
+                  "gluten"
+                ]
+              }
+            ]
+          },
+          {
+            "flour": [
+              "all-purpose flour",
+              "bread flour"
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["wheat", "flour"],
+        ["wheat", "gluten"],
+        ["grain", "rice"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "environment": [
+          {
+            "water pollution": [
+              "chemical contamination",
+              "marine debris",
+              {
+                "chemical contamination": [
+                  "heavy metals",
+                  "toxicity",
+                  "fertilizer runoff"
+                ]
+              }
+            ]
+          },
+          {
+            "marine debris": [
+              "plastic waste",
+              "ghost nets"
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["chemical contamination", "toxicity"],
+        ["water pollution", "fertilizer runoff"],
+        ["marine debris", "ghost nets"]
+      ]
+    },
+    {
+      "taxonomy": {
+        "food": [
+          {
+            "coffee": [
+              "espresso",
+              "latte",
+              {
+                "espresso": [
+                  "caffeine",
+                  "coffee bean"
+                ]
+              }
+            ]
+          },
+          {
+            "coffee bean": [
+              "arabica",
+              "robusta"
+            ]
+          }
+        ]
+      },
+      "error_edges": [
+        ["espresso", "caffeine"],
+        ["espresso", "coffee bean"],
+        ["coffee", "latte"]
+      ]
+    }
+]
